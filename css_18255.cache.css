@@ -1,0 +1,25 @@
+/*
+X-Space Template
+Template Name: Simple
+Author: X-Space Team
+Url: http://www.supesite.com
+(C) 2001-2006 Comsenz Inc.
+*/
+
+body { margin: 0; padding: 0; background: #EEE; color: #000; font: 12px Arial, Helvetica, sans-serif; text-align: center; }
+input, textarea, select, button { font: 1em Arial, Helvetica, sans-serif; }
+#wrap { margin: 1em auto; text-align: left; width: 770px; w\idth: 760px; border: 5px solid #FFF; background: #FFF; overflow: hidden; }
+
+#header { background: #1C5B9E; margin-bottom: 5px; }
+	#header * { color: #FFF; }
+
+#menu { line-height: 26px; }
+
+.xspace-blocktitle { margin: 0; font-size: 1.2em; line-height: 1.6em; border-bottom: 1px solid #CCC; }
+
+.sidearea { background: #EEE; padding: 5px; overflow: hidden; }
+#mainarea { padding: 5px; }
+
+a { color: #006; text-decoration: none; }
+	a:hover { text-decoration: underline; }
+	a:visited { color: #099; }

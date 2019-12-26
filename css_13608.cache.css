@@ -1,0 +1,72 @@
+/*
+X-Space Template
+Template Name: Spacetheme02
+Author: X-Space Team
+Url: http://www.supesite.com
+(C) 2001-2006 Comsenz Inc.
+*/
+
+/*布局*/
+/*Layout_1 左侧导航*/
+.xspace-layout1 #sideleft { float:left; width: 190px; }
+.xspace-layout1 .mainarea-side { width: 560px; margin-left: 200px !important; margin-left: 197px; }
+/*Layout_2 右侧导航*/
+.xspace-layout2 #sideright { float: right; width: 190px; }
+.xspace-layout2 .mainarea-side { float: left; width: 560px; }
+/*Layout_3 三列*/
+.xspace-layout3 #sideleft { float:left; width: 190px; }
+.xspace-layout3 #sideright { float:right; width: 190px; }
+	.xspace-layout3 .mainarea-side { float: left; width: 380px; w\idth: 370px; padding: 0 5px; }
+
+/*图片样式*/
+.xspace-imgstyle { background: #333; border: none; }
+
+/*标题样式*/
+h1.xspace-title { background: #FFEDC3; color: #333; }
+.xspace-blocktitle { overflow: hidden; font-size: 1em; }
+	.sidearea .xspace-blocktitle { color: #FFF; background: #333 url(/blog/themes/spacetheme02/images/sidetitle_bg.gif) no-repeat left top; height: 37px; line-height: 32px; padding-left: 5px; }
+	#mainarea .xspace-blocktitle { color: #FFF600; height: 33px; line-height: 37px; border-bottom: 1px solid #FFEEC7; }
+li.xspace-loglist h4.xspace-entrytitle { background-color: #A66525; }
+
+body { margin: 0; padding: 0; background: #F5F9FC url(/blog/themes/spacetheme02/images/background.gif) repeat; color: #E6E6E6; font: 12px Arial, Helvetica, sans-serif; text-align: center; }
+input, textarea, select, button { font: 1em Arial, Helvetica, sans-serif; }
+#wrap { background: url(/blog/themes/spacetheme02/images/header_bg_2.jpg) repeat-x top; overflow: hidden; }
+#header { width: 812px; margin: 0 auto; text-align: left; background: url(/blog/themes/spacetheme02/images/header_bg.jpg) no-repeat left top; height: 268px; }
+		#spacename { width: 300px; height: 110px; overflow: hidden; margin-left: 60px; color: #333; }
+
+/*导航*/
+#menu { margin: 80px 0 0 40px;}
+	#menu li { margin: 0; }
+	#menu li a { float: left; padding: 0 1em; line-height: 30px; }
+	#menu li.xspace-active a, #menu li a:hover { background: #FDF1C9; color: #974700; }
+
+#content { width: 812px; padding: 0 25px; w\idth: 762px; margin: 0 auto; text-align: left; background: url(/blog/themes/spacetheme02/images/content_bg.gif) repeat-y; }
+	.sidearea { overflow: hidden; }
+		.xspace-sideblock { background: #E1D9C9; color: #000; padding-bottom: 1em; }
+
+a { color: #FFEEC6; text-decoration: none; }
+	a:hover { text-decoration: underline; }
+	a:visited { color: #FFF; }
+		.xspace-sideblock a { color: #000; }
+			.xspace-sideblock a:visited { color: #666; }
+		.xspace-imgstyle a { color: #FFEEC6; }
+			.xspace-imgstyle a:visited { color: #FFF; }
+
+/*突出边框*/
+.xspace-noticemsg, #announcement, .xspace-itemlist li, .xspace-imagebox, #xspace-filebaseinfo li, #xspace-goodsbaseinfo li,
+	#xspace-aplist th, #xspace-aplist td, .xspace-msgmodule h5, .xspace-addoninfo, .xspace-itemlinks, .xspace-itemtag,
+	#xspace-itemreply dt, #xspace-itemform fieldset, table.xspace-page a, #xspace-ownerinfo, #xspace-imgnavbar { border-color: #AB6B2E; }
+
+/*突出背景*/
+#xspace-aplist .xspace-ontop td, #xspace-rates a, table.xspace-page td.xspace-current { background: #FFEDC3; }
+
+table.xspace-page a, table.xspace-page td.xspace-totlerecord, table.xspace-page td.xspace-totlepages { background: #A66525; }
+
+.xspace-listtab { border-top-color: #974700; }
+	.xspace-listtab li.xspace-active { border-bottom-color: #974700; }
+
+.xspace-sublistitem a { color: #333!important; }
+
+.xspace-current { color: #974700; }
+
+#xspace-footer { border-top: 2px solid #000; margin: 0; background: #333; }
